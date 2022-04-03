@@ -1,3 +1,4 @@
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -10,7 +11,7 @@ int main() {
             c= a + b;
             a = b;
             b = c;
-            if(n > c ) {
+            if(n >= c ) {
                 cout << c << endl;
             }
        }
