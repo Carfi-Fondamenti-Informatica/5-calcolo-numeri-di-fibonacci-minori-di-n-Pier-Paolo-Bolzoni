@@ -11,7 +11,7 @@ int main() {
                 c = a + b;
                 b = a;
                 a = c;
-            if(n >= c ) {
+            if(n > c ) {
                 cout << c << endl;
             }else{
 
