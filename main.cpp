@@ -13,6 +13,9 @@ int main() {
                 a = c;
             if(n >= c ) {
                 cout << c << endl;
+            }else{
+                cout << n <<endl;
+                break;
             }
        }
 
